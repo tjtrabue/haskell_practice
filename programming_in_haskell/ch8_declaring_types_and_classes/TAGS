@@ -1,0 +1,37 @@
+
+./Answers.hs,311
+module Answers Answers2,3
+data Nat Nat5,6
+data Nat = Zero Zero5,6
+data Nat = Zero | Succ Succ5,6
+evalNat evalNat8,9
+addNat addNat13,14
+n n17,18
+m m20,21
+data Tree Tree25,26
+data Tree a = Leaf Leaf25,26
+data Tree a = Leaf a | Node Node25,26
+t t27,28
+mult mult35,36
+occurs occurs43,44
+
+./TautologyChecker.hs,435
+module TautologyChecker TautologyChecker0,1
+data Prop Prop4,5
+data Prop = Const Const4,5
+          | Var Var5,6
+          | Not Not6,7
+          | And And7,8
+          | Imply Imply8,9
+type Assoc Assoc10,11
+type Subst Subst12,13
+p1 p115,16
+p2 p218,19
+p3 p321,22
+p4 p424,25
+eval eval27,28
+vars vars36,37
+bools bools43,44
+removeDuplicates removeDuplicates49,50
+substs substs58,59
+isTaut isTaut63,64

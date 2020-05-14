@@ -1,0 +1,46 @@
+
+./Answers_190314338550696_flymake.hs,53
+module Ch7Answers Ch7Answers0,1
+myAll myAll23,24
+
+./Answers.hs,401
+module Ch7Answers Ch7Answers0,1
+myAll myAll24,25
+myAny myAny27,28
+myTakeWhile myTakeWhile30,31
+myDropWhile myDropWhile34,35
+myMap myMap44,45
+myFilter myFilter47,48
+dec2int dec2int61,62
+myCurry myCurry73,74
+myUncurry myUncurry76,77
+type Bit Bit82,83
+unfold unfold84,85
+chop8 chop888,89
+myMapUsingUnfold myMapUsingUnfold91,92
+myIterateUsingUnfold myIterateUsingUnfold93,94
+
+./Answers_200056213798919_flymake.hs,53
+module Ch7Answers Ch7Answers0,1
+myAll myAll24,25
+
+./TautologyChecker.hs,434
+module TautologyChecker TautologyChecker0,1
+data Prop Prop3,4
+data Prop = Const Const3,4
+          | Var Var4,5
+          | Not Not5,6
+          | And And6,7
+          | Imply Imply7,8
+type Assoc Assoc9,10
+type Subst Subst11,12
+p1 p114,15
+p2 p217,18
+p3 p320,21
+p4 p423,24
+eval eval26,27
+vars vars35,36
+bools bools42,43
+removeDuplicates removeDuplicates48,49
+substs substs57,58
+isTaut isTaut62,63

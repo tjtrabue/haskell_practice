@@ -69,3 +69,26 @@ higher-order library function curry that converts a function on pairs into
 a curried function, and, conversely, the function uncurry that converts a
 curried function with two arguments into a function on pairs.
 -}
+
+-- Solution:
+myCurry :: ((a, b) -> c) -> a -> b -> c
+myCurry f x y = f (x,y)
+
+myUncurry :: (a -> b -> c) -> (a, b) -> c
+myUncurry f tup = f (fst tup) (snd tup)
+
+{-
+#6 Rewrite chop8, map f, and iterate f using unfold
+-}
+type Bit = Int
+
+unfold :: (a -> Bool) -> (a -> b) -> (a -> a) -> a -> [b]
+unfold p h t x | p x = []
+               | otherwise = h x : unfold p h t (t x)
+
+chop8 :: [Bit] -> [[Bit]]
+chop8 = unfold null (take 8) (drop 8)
+
+myMapUsingUnfold f = unfold null f tail
+
+myIterateUsingUnfold f = unfold (const False) f f
