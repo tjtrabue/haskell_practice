@@ -1,19 +1,28 @@
 
-./Answers.hs,311
+./Answers.hs,570
 module Answers Answers2,3
-data Nat Nat5,6
-data Nat = Zero Zero5,6
-data Nat = Zero | Succ Succ5,6
-evalNat evalNat8,9
-addNat addNat13,14
-n n17,18
-m m20,21
-data Tree Tree25,26
-data Tree a = Leaf Leaf25,26
-data Tree a = Leaf a | Node Node25,26
-t t27,28
-mult mult35,36
-occurs occurs43,44
+data Nat Nat6,7
+data Nat = Zero Zero6,7
+data Nat = Zero | Succ Succ6,7
+evalNat evalNat9,10
+addNat addNat14,15
+n n18,19
+m m21,22
+data Tree Tree26,27
+data Tree a = Leaf Leaf26,27
+data Tree a = Leaf a | Node Node26,27
+t t29,30
+data Expr Expr35,36
+data Expr = Val Val35,36
+data Expr = Val Int | Add Add35,36
+mult mult42,43
+occurs occurs50,51
+descendAndCountLeaves descendAndCountLeaves65,66
+numLeaves numLeaves71,72
+balanced balanced74,75
+splitList splitList83,84
+balance balance86,87
+folde folde97,98
 
 ./TautologyChecker.hs,435
 module TautologyChecker TautologyChecker0,1
